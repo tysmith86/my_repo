@@ -7,9 +7,29 @@
   <h1>About Me</h1>
   <main>
     <ul>
-      <li>What's your name?</li>
-      <li>What instrument do you play?</li>
+      <li>What is your name?</li>
+      <li>How old are you?</li>
+      <li>Where are you from?</li>
+      <li>What is one of your favorite hobbies?</li>
     </ul>
   </main>
+  <script>
+  var name = prompt('What is your name?');
+  console.log('user\'s name = ' + name);
+  alert('Welcome ' + name);
+
+  var age = prompt('How old are you?');
+  console.log('user\'s age = ' + age);
+  alert('You are ' + age + ' years old.');
+
+  var home_town = prompt('Where are you from?');
+  console.log('user\'s home town = ' + home_town);
+  alert(home_town + ' sounds nice!');
+
+  var hobby = prompt('What is one of your favorie hobbies?');
+  console.log('user\'s hobby = ' + hobby);
+  alert(hobby + ' is a great hobby!');
+  alert('Just to confirm, your name is ' + name + '. You are ' + age + ' years old. You are from ' + home_town + '. And one of your favorite hobbies is ' + hobby.toLowerCase() + '.');
+  </script>
 </body>
 </html>
